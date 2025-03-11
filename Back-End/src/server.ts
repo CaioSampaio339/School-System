@@ -1,6 +1,6 @@
 import express from "express";
 import "reflect-metadata";
-import { AppDataSource } from "../data-source";
+import { AppDataSource } from "../config/DB/data-source";
 import cors from "cors";
 
 const app = express();
